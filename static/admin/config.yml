@@ -19,3 +19,15 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'peos'
+    label: 'Peo'
+    files:
+      - label: 'Peo'
+        name: 'peo'
+        file: 'content/peo.json'
+        fields:
+          - {label: '姓名', name: 'name', widget: 'string'}
+          - {label: '年龄', name: 'age', widget: 'number'}
+    
+      
+      
