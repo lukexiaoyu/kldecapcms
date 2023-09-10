@@ -24,10 +24,11 @@ collections:
     files:
       - label: 'Peo'
         name: 'peo'
-        file: 'content/peo.json'
+        file: 'src/lib/peo.json'
         fields:
           - {label: '姓名', name: 'name', widget: 'string'}
           - {label: '年龄', name: 'age', widget: 'number'}
+          - {label: '性别', name: 'sex', widget: 'select', options: ['男', '女']}
     
       
       
